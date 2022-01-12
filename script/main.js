@@ -1,4 +1,6 @@
-let randomNumber1 = Math.floor(Math.random()*6) + 1;
+document.querySelectorAll(".btnContainer")[0].addEventListener("click", function () {
+
+    let randomNumber1 = Math.floor(Math.random()*6) + 1;
 let randomNumber2 = Math.floor(Math.random()*6) + 1;
 
 let images1 = "images/dice"+ randomNumber1 +".png";
@@ -14,3 +16,5 @@ if(randomNumber1 > randomNumber2) {
 } else {
     document.querySelector('#title').innerHTML= "It's a draw!";
 }
+
+});

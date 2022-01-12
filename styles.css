@@ -39,3 +39,16 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+.btnContainer {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+#btn {
+  font-family: 'Lobster', cursive;
+  color: #4ECCA3;
+  background-color: #232931;
+  font-size: 1.5rem;
+  border-radius: 15%;
+}
